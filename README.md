@@ -30,6 +30,8 @@ function element($key) {
 
 In theory, this file send a GET request to out API and with function `element();`it will pull the element from the database and displays it.
 
+**NOTE! YOU MUST INCLUDE THE GATEWAY FILE IN EVERY SUBFILE**
+
 ## Marking the elements in your template
 
 Remember the dummy text we used earlier? Now we have to replace it with element placeholders. Those pieces of code will change as the user edits the website in the administration. This can be done with calling the function `element();` followed by selecting the value called `result`. With these information, the line of code will look like this:
